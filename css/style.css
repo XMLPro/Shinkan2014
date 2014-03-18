@@ -178,3 +178,25 @@ img{
     top: 40%;
     left: 50%;
 }
+/*
+ * page5
+ */
+#global_img4_pg5{
+    z-index: 101;
+    white-space: nowrap;
+    width: 40%;
+    height:auto;
+    top: 15%;
+    left: 55%;
+}
+#pg5_title{
+    display:inline-block; 
+    top: 20%;
+    left: 10%;
+}
+#pg5_txt{
+    font-size: 2.2em;
+    width: 50%;
+    top: 40%;
+    left: 11%;
+}
