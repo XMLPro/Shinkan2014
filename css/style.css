@@ -127,7 +127,7 @@ img{
     top: 20%;
     left: 45%;
 }
-#pg2_txt1{
+#pg2_txt{
     font-size: 2.2em;
     width: 50%;
     top: 40%;
@@ -143,16 +143,38 @@ img{
     width: 30%;
     height:auto;
     top: 20%;
-    left: 60%;
+    left: 55%;
 }
 #pg3_title{
     display:inline-block; 
     top: 20%;
-    left: 10%;
+    left: 15%;
 }
-#pg3_txt1{
+#pg3_txt{
     font-size: 2.2em;
     width: 50%;
     top: 40%;
-    left: 10%;
+    left: 15%;
+}
+/*
+ * page4
+ */
+#global_img3_pg4{
+    z-index: 101;
+    white-space: nowrap;
+    width: 40%;
+    height:auto;
+    top: 15%;
+    left: 7%;
+}
+#pg4_title{
+    display:inline-block; 
+    top: 20%;
+    left: 50%;
+}
+#pg4_txt{
+    font-size: 2.2em;
+    width: 50%;
+    top: 40%;
+    left: 50%;
 }
