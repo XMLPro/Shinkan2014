@@ -41,18 +41,25 @@ q:before,q:after {
 }
 
 /* custum css*/
+
+/*
+ * 全体のスタイル 
+ */
+.section{
+}
+/* フォントの設定 */
 body{
     font-family:mplus-1p-bold;
-}
-.section{
 }
 
 h1{
     position: absolute;
-    font-size: 6em;
+    font-size: 5em;
     border-bottom: 5px solid #1e4391;
 }
 p{
+    position: absolute;
+    font-size: 2.2em;
     font-size: 3em;
 }
 img{
@@ -61,7 +68,6 @@ img{
 
 #global_img1{
     z-index: 101;
-    position: absolute;
     white-space: nowrap;
     width: 20%;
     height:auto;
@@ -70,7 +76,6 @@ img{
 }
 #global_img2{
     z-index: 102;
-    position: absolute;
     white-space: nowrap;
     width: 20%;
     height:auto;
@@ -79,7 +84,6 @@ img{
 }
 #global_img3{
     z-index: 103;
-    position: absolute;
     white-space: nowrap;
     width: 20%;
     height:auto;
@@ -88,27 +92,29 @@ img{
 }
 #global_img4{
     z-index: 104;
-    position: absolute;
     white-space: nowrap;
     width: 20%;
     height:auto;
     top: 50%;
     left: 60%;
 }
-/* page1 */
+
+/* 
+ * page1
+ */
 #pg1_title{
     font-size: 8em;
     display:inline-block; 
-    position: absolute;
     top: 55%;
     left: 15%;
 }
 
-/* page2 */
+/*
+ * page2
+ */
 
 #global_img1_pg2{
     z-index: 101;
-    position: absolute;
     white-space: nowrap;
     width: 45%;
     height:auto;
@@ -117,23 +123,22 @@ img{
 }
 #pg2_title{
     display:inline-block; 
-    position: absolute;
     font-size: 5em;
     top: 20%;
     left: 45%;
 }
 #pg2_txt1{
-    position: absolute;
     font-size: 2.2em;
     width: 50%;
     top: 40%;
     left: 45%;
 }
 
-/* page3 */
+/* 
+ * page3
+ */
 #global_img2_pg3{
     z-index: 101;
-    position: absolute;
     white-space: nowrap;
     width: 30%;
     height:auto;
@@ -142,13 +147,10 @@ img{
 }
 #pg3_title{
     display:inline-block; 
-    position: absolute;
-    font-size: 5em;
     top: 20%;
     left: 10%;
 }
 #pg3_txt1{
-    position: absolute;
     font-size: 2.2em;
     width: 50%;
     top: 40%;
