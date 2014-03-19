@@ -54,11 +54,13 @@ body{
 
 h1{
     position: absolute;
+    white-space: nowrap;
     font-size: 5em;
     border-bottom: 5px solid #1e4391;
 }
 p{
     position: absolute;
+    white-space: nowrap;
     font-size: 2.2em;
     font-size: 3em;
 }
@@ -68,7 +70,6 @@ img{
 
 #global_img1{
     z-index: 101;
-    white-space: nowrap;
     width: 20%;
     height:auto;
     top: 12%;
@@ -76,7 +77,6 @@ img{
 }
 #global_img2{
     z-index: 102;
-    white-space: nowrap;
     width: 20%;
     height:auto;
     top: 10%;
@@ -84,7 +84,6 @@ img{
 }
 #global_img3{
     z-index: 103;
-    white-space: nowrap;
     width: 20%;
     height:auto;
     top: 12%;
@@ -92,7 +91,6 @@ img{
 }
 #global_img4{
     z-index: 104;
-    white-space: nowrap;
     width: 20%;
     height:auto;
     top: 50%;
@@ -115,7 +113,6 @@ img{
 
 #global_img1_pg2{
     z-index: 101;
-    white-space: nowrap;
     width: 45%;
     height:auto;
     top: 12%;
@@ -139,7 +136,6 @@ img{
  */
 #global_img2_pg3{
     z-index: 101;
-    white-space: nowrap;
     width: 30%;
     height:auto;
     top: 20%;
@@ -161,7 +157,6 @@ img{
  */
 #global_img3_pg4{
     z-index: 101;
-    white-space: nowrap;
     width: 40%;
     height:auto;
     top: 15%;
@@ -183,7 +178,6 @@ img{
  */
 #global_img4_pg5{
     z-index: 101;
-    white-space: nowrap;
     width: 40%;
     height:auto;
     top: 15%;
