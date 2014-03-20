@@ -53,13 +53,26 @@ body{
 }
 
 h1{
-    font-size: 5em;
-    border-bottom: 5px solid #000000;
+    font-size: 4em;
+    border-bottom: 5px solid #4b0082;
+    text-align: center;
 }
 p{
     font-size: 2em;
 }
 img{
+    width: 100%;
+    height: auto;
+    left:0%;
+}
+.text-area{
+    position: absolute;
+    width: 50%;
+}
+.global-img{
+    position: absolute;
+    width: 50%;
+    height: auto;
 }
 
 #global_img1{
@@ -71,47 +84,24 @@ img{
 #global_img4{
 }
 
-/* 
- * page1
- */
-#pg1_title{
+#pg2 .text-area,
+#pg4 .text-area{
+    top: 20%;
+    left: 50%;
+}
+#pg3 .text-area,
+#pg5 .text-area{
+    top: 20%;
+    left: 0%;
 }
 
-/*
- * page2
- */
-
-#global_img1_pg2{
+#pg2 .global-img,
+#pg4 .global-img{
+    left: 0%;
+    top: 20%;
 }
-#pg2_title{
-}
-#pg2_txt{
-}
-
-/* 
- * page3
- */
-#global_img2_pg3{
-}
-#pg3_title{
-}
-#pg3_txt{
-}
-/*
- * page4
- */
-#global_img3_pg4{
-}
-#pg4_title{
-}
-#pg4_txt{
-}
-/*
- * page5
- */
-#global_img4_pg5{
-}
-#pg5_title{
-}
-#pg5_txt{
+#pg3 .global-img,
+#pg5 .global-img{
+    left: 50%;
+    top: 20%;
 }
