@@ -60,11 +60,7 @@ h1{
 p{
     font-size: 2em;
 }
-img{
-    width: 100%;
-    height: auto;
-    left:0%;
-}
+
 .text-area{
     position: absolute;
     width: 50%;
@@ -74,12 +70,17 @@ img{
     width: 50%;
     height: auto;
 }
+.global-img img{
+    width: 100%;
+    left:0%;
+}
 
 #global_img1{
 }
 #global_img2{
 }
 #global_img3{
+
 }
 #global_img4{
 }
@@ -97,11 +98,14 @@ img{
 
 #pg2 .global-img,
 #pg4 .global-img{
-    left: 0%;
     top: 20%;
+    left: 0%;
 }
 #pg3 .global-img,
 #pg5 .global-img{
-    left: 50%;
     top: 20%;
+    left: 50%;
+}
+#global_img2_pg3{
+    width: 50%;
 }
