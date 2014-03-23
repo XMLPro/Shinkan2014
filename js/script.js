@@ -12,6 +12,8 @@ $(document).ready(function() {
         anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', '5thpage'],
         //イベント処理
         //indexが現在のページ．directionがどちらに動いたか．
+        scrollingSpeed: 800,
+        easing: 'easeOutCubic',
         onLeave: function(index, direction){
             if(index == 1 && direction == 'down'){
             }else if(index == 2 && direction == 'up'){

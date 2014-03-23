@@ -48,23 +48,35 @@ q:before,q:after {
 .section{
 }
 /* フォントの設定 */
+@font-face{
+    font-family: mplus-1p-bold;
+    src: url('http://mplus-fonts.sourceforge.jp/webfonts/mplus-1p-bold.ttf')
+         format("truetype");
+}
 body{
     font-family:mplus-1p-bold;
 }
-
 h1{
     font-size: 4em;
     border-bottom: 5px solid #4b0082;
-    text-align: center;
 }
 p{
     font-size: 2em;
 }
 
+/* PC用スタイル */
 .text-area{
     position: absolute;
     width: 50%;
 }
+.text-area h1{
+    width: 90%;
+    margin-left: 10%;
+}
+.text-area p{
+    padding: 0% 10%;
+}
+
 .global-img{
     position: absolute;
     width: 50%;
@@ -72,19 +84,20 @@ p{
 }
 .global-img img{
     width: 100%;
+    height: auto;
     left:0%;
 }
-
+/* 画像の初期位置 */
 #global_img1{
 }
 #global_img2{
 }
 #global_img3{
-
 }
 #global_img4{
 }
-
+/* 各ページのデザイン */
+/* テキストの位置 */
 #pg2 .text-area,
 #pg4 .text-area{
     top: 20%;
@@ -95,7 +108,7 @@ p{
     top: 20%;
     left: 0%;
 }
-
+/* 画像の位置 */
 #pg2 .global-img,
 #pg4 .global-img{
     top: 20%;
@@ -106,6 +119,61 @@ p{
     top: 20%;
     left: 50%;
 }
-#global_img2_pg3{
+/* 各ページにおける位置
+ * jQueryによる動作の最終位置
+ * このIDが付いている画像はhtmlから消す
+ * */
+#global_img1_tmp{
+    width: 80%;
+    padding-left: 10%;
+}
+#global_img2_tmp{
     width: 50%;
+    padding-left: 25%;
+}
+#global_img3_tmp{
+    width: 80%;
+    padding-left: 10%;
+}
+#global_img4_tmp{
+    width: 80%;
+    padding-left: 10%;
+}
+#global_img5_tmp{
+}
+
+/* スマートフォン用スタイル*/
+@media screen and (max-width: 1080px) {
+    .text-area{
+        width: 100%;
+    }
+    .text-area h1{
+        font-size: 5.5em;
+        width: 80%;
+        margin: 0% 10%;
+    }
+    .text-area p{
+        font-size: 3em;
+    }
+    .global-img{
+        width: 100%;
+    }
+    .global-img img{
+        width: 100%;
+        left:0%;
+    }
+    #pg2 .text-area,
+    #pg3 .text-area,
+    #pg4 .text-area,
+    #pg5 .text-area{
+        top: 10%;
+        left: 0%;
+    }
+    #pg2 .global-img,
+    #pg3 .global-img,
+    #pg4 .global-img,
+    #pg5 .global-img{
+        top: 40%;
+        left: 0%;
+    }
 }
