@@ -20,4 +20,6 @@ $(document).ready(function() {
             }
         },
     });
+    function largeScreen(index, direction){
+    }
 });

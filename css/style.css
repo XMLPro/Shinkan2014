@@ -63,7 +63,6 @@ h1{
 p{
     font-size: 2em;
 }
-
 /* PC用スタイル */
 .text-area{
     position: absolute;
@@ -82,22 +81,62 @@ p{
     width: 50%;
     height: auto;
 }
-.global-img img{
+img{
     width: 100%;
     height: auto;
     left:0%;
 }
 /* 画像の初期位置 */
+#global-img-div1{
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    left: 0%;
+    z-index: 100;
+}
+#global-img-div2{
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    left: 23%;
+    z-index: 100;
+}
+#global-img-div3{
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    left: 50%;
+    z-index: 100;
+}
+#global-img-div4{
+    position: absolute;
+    width: 25%;
+    top: 40%;
+    left: 75%;
+    z-index: 100;
+}
+
 #global_img1{
+    z-index: 100;
 }
 #global_img2{
+    z-index: 100;
 }
 #global_img3{
+    z-index: 100;
 }
 #global_img4{
+    z-index: 100;
 }
 /* 各ページのデザイン */
 /* テキストの位置 */
+#pg1 h1{
+    font-size: 8em;
+    padding-left: 20%;
+    margin-bottom: 45%;
+}
+
+
 #pg2 .text-area,
 #pg4 .text-area{
     top: 20%;
