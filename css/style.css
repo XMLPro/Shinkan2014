@@ -162,7 +162,7 @@ img{
 #pg6 h1{
     font-size: 4em;
     text-align: center;
-    margin: 0 10%;
+    margin: 0 20%;
 }
 #pg6 #sc{
     position: static;
@@ -171,7 +171,7 @@ img{
 }
 #pg6 .title{
     border-bottom: 2px solid #4b0082;
-    margin: 0 30%;
+    margin: 0 35%;
     padding-top: 3%;
 }
 #pg6 .daylist{
@@ -283,7 +283,7 @@ img{
     #pg6 h1{
         font-size: 2em;
         text-align: center;
-        margin-bottom: 5%;
+        margin: 0 10%;
     }
     #pg6 p{
         font-size: 1em;
