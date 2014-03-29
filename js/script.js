@@ -25,7 +25,8 @@ $(document).ready(function() {
     });
     function largeScreen(index, direction){
         if(index == 1 && direction == 'down'){
-            $('#global-img-div1').animate(
+            $('#global-img-div1')
+            .animate(
                 {
                     'width': '50%',
                     'top': '120%',
@@ -33,6 +34,7 @@ $(document).ready(function() {
                 },
                 {
                     duration: 800,
+                    queue: false,
                 }
             );
         }else if(index == 2 && direction == 'up'){
