@@ -25,9 +25,19 @@ $(document).ready(function() {
     });
     function largeScreen(index, direction){
         if(index == 1 && direction == 'down'){
-            
+            $('#global-img-div1').animate(
+                {
+                    'width': '50%',
+                    'top': '120%',
+                    'left': '0%'
+                },
+                {
+                    duration: 800,
+                }
+            );
+        }else if(index == 2 && direction == 'up'){
         }
     };
     function smallScreen(index, direction) {
-    }
+    };
 });
