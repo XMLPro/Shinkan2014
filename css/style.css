@@ -60,9 +60,9 @@ h1{
     display: block;
     font-size: 4em;
     margin-bottom: 5%;
-    border-bottom: 2px solid rgba(0, 0, 0, .25);
-    box-shadow(rgba(255, 255, 255, 0.25)0 2px 0);
-    text-shadow: -2px 2px 0 rgba(255, 255, 255, .4);
+    border-bottom: 2.5px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 2.5px 0 rgba(255, 255, 255, 0.4);
+    text-shadow: -1px 1px 0 rgba(255, 255, 255, .4);
 }
 p{
     font-size: 2em;
@@ -165,7 +165,7 @@ img{
 #pg6 h1{
     font-size: 4em;
     text-align: center;
-    margin: 0 20% 5% 20%;
+    margin: 0 20% 2% 20%;
 }
 #pg6 #sc{
     position: static;
@@ -174,7 +174,7 @@ img{
 }
 #pg6 .title{
     margin: 0 35%;
-    padding-top: 3%;
+    padding-top: 2%;
     color: #444;
 }
 #pg6 .daylist{
@@ -298,7 +298,6 @@ img{
     }
     #pg6 .title{
         margin: 0 30%;
-        padding-top: 3%;
     }
     #pg6 .daylist{
         text-align: center;
