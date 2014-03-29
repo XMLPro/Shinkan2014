@@ -57,9 +57,12 @@ body{
     font-family:mplus-1p-bold;
 }
 h1{
+    display: block;
     font-size: 4em;
-    border-bottom: 5px solid #4b0082;
     margin-bottom: 5%;
+    border-bottom: 2px solid rgba(0, 0, 0, .25);
+    box-shadow(rgba(255, 255, 255, 0.25)0 2px 0);
+    text-shadow: -2px 2px 0 rgba(255, 255, 255, .4);
 }
 p{
     font-size: 2em;
@@ -162,7 +165,7 @@ img{
 #pg6 h1{
     font-size: 4em;
     text-align: center;
-    margin: 0 20%;
+    margin: 0 20% 5% 20%;
 }
 #pg6 #sc{
     position: static;
