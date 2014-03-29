@@ -170,9 +170,9 @@ img{
     margin: 0;
 }
 #pg6 .title{
-    border-bottom: 2px solid #4b0082;
     margin: 0 35%;
     padding-top: 3%;
+    color: #444;
 }
 #pg6 .daylist{
     text-align: center;
@@ -291,10 +291,9 @@ img{
     #pg6 #sc{
         position: static;
         padding: 0 10%;
-        margin: 0;
+        margin: 0 0 10% 0;
     }
     #pg6 .title{
-        border-bottom: 2px solid #4b0082;
         margin: 0 30%;
         padding-top: 3%;
     }

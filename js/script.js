@@ -15,11 +15,19 @@ $(document).ready(function() {
         scrollingSpeed: 800,
         easing: 'easeOutCubic',
         onLeave: function(index, direction){
-            if(index == 1 && direction == 'down'){
-            }else if(index == 2 && direction == 'up'){
+            var w = $(window).width();
+            if (w > 360) {
+                largeScreen(index, direction)
+            }else{
+                smallScreen(index, direction)
             }
         },
     });
     function largeScreen(index, direction){
+        if(index == 1 && direction == 'down'){
+            
+        }
+    };
+    function smallScreen(index, direction) {
     }
 });
