@@ -24,17 +24,26 @@ $(document).ready(function() {
         },
     });
     function largeScreen(index, direction){
+        var animateSpeed = 800;
         if(index == 1 && direction == 'down'){
-            $('#global-img-div1')
-            .animate(
+            $('#global-img-div1').animate(
                 {
                     'width': '50%',
                     'top': '120%',
                     'left': '0%'
                 },
                 {
-                    duration: 800,
-                    queue: false,
+                    duration: animateSpeed,
+                    queue: false
+                }
+            );
+            $('#global_img1').animate(
+                {
+                    'width': '80%',
+                    'padding-left': '10%'
+                },
+                {
+                    duration: animateSpeed,
                 }
             );
         }else if(index == 2 && direction == 'up'){
