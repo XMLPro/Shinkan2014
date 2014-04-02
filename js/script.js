@@ -27,6 +27,7 @@ $(document).ready(function() {
     function largeScreen(index, direction){
         var animateSpeed = 800;
         if(index == 1 && direction == 'down'){
+
             // global img 1
             $('#global-img-div1').animate(
                 {'width': '50%', 'top': '120%'},
@@ -36,25 +37,26 @@ $(document).ready(function() {
                 {'width': '80%', 'padding-left': '10%'},
                 {duration: animateSpeed}
             );
+
             //global img 2
             $('#global-img-div2').animate(
                 {'left': '100%'},
                 {duration: animateSpeed}
-            ).animate(
-                {'top': '220%', 'width': '50%'},
-                {duration: animateSpeed}
-            );
+            )
+
             //global img 3
             $('#global-img-div3').animate(
-                {'left': '-150%'},
+                {'left': '-50%'},
                 {duration: animateSpeed}
-            );
+            )
+
             //global img 4
             $('#global-img-div4').animate(
                 {'left': '100%'},
                 {duration: animateSpeed}
-            );
+            )
         }else if(index == 2 && direction == 'up'){
+
             //global img 1
             $('#global-img-div1').animate(
                 {'width': '25%', 'top': '40%', 'left': '0%'},
@@ -64,27 +66,55 @@ $(document).ready(function() {
                 {'width': '100%', 'padding-left': '0%'},
                 {duration: animateSpeed}
             );
+
             //global img 2
             $('#global-img-div2').animate(
                 {'left': '23%'},
                 {duration: animateSpeed}
             );
+
             //global img 3
             $('#global-img-div3').animate(
                 {'left': '50%'},
                 {duration: animateSpeed}
             );
+
             //global img 4
             $('#global-img-div4').animate(
                 {'left': '75%'},
                 {duration: animateSpeed}
             );
+
         }else if(index == 2 && direction == 'down'){
+            $('#pg3 .global-img').animate(
+                {'left': '50%'},
+                {duration: animateSpeed}
+            );
         }else if(index == 3 && direction == 'up'){
+            $('#pg3 .global-img').animate(
+                {'left': '100%'},
+                {duration: animateSpeed}
+            );
         }else if(index == 3 && direction == 'down'){
+            $('#pg4 .global-img').animate(
+                {'left': '0%'},
+                {duration: animateSpeed}
+            );
         }else if(index == 4 && direction == 'up'){
+            $('#pg4 .global-img').animate(
+                {'left': '-50%'},
+                {duration: animateSpeed}
+            );
         }else if(index == 4 && direction == 'down'){
+            $('#pg5 .global-img').animate(
+                {'left': '50%'},
+                {duration: animateSpeed}
+            );
         }else if(index == 5 && direction == 'up'){
+            $('#pg5 .global-img').animate(
+                {'left': '100%'},
+                {duration: animateSpeed}
+            );
         }
 
     };
