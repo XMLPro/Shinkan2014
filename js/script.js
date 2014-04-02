@@ -41,7 +41,7 @@ $(document).ready(function() {
                 {'left': '100%'},
                 {duration: animateSpeed}
             ).animate(
-                {'top': '120%', 'width': '50%'},
+                {'top': '220%', 'width': '50%'},
                 {duration: animateSpeed}
             );
             //global img 3
@@ -80,8 +80,13 @@ $(document).ready(function() {
                 {duration: animateSpeed}
             );
         }else if(index == 2 && direction == 'down'){
-            //global img 2
+        }else if(index == 3 && direction == 'up'){
+        }else if(index == 3 && direction == 'down'){
+        }else if(index == 4 && direction == 'up'){
+        }else if(index == 4 && direction == 'down'){
+        }else if(index == 5 && direction == 'up'){
         }
+
     };
 
     function smallScreen(index, direction) {
