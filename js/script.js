@@ -154,7 +154,7 @@ $(document).ready(function() {
 
             //global img 1
             $('#global-img-div1').animate(
-                {'width': '50%', 'top': '40%', 'left': '0%'},
+                {'width': '50%', 'top': '35%', 'left': '0%'},
                 {duration: animateSpeed, queue: false}
             );
             $('#global_img1').animate(

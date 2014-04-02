@@ -103,35 +103,20 @@ img{
     width: 25%;
     top: 40%;
     left: 23%;
-    z-index: 100;
 }
 #global-img-div3{
     position: absolute;
     width: 25%;
     top: 40%;
     left: 50%;
-    z-index: 100;
 }
 #global-img-div4{
     position: absolute;
     width: 25%;
     top: 40%;
     left: 75%;
-    z-index: 100;
 }
 
-#global_img1{
-    z-index: 100;
-}
-#global_img2{
-    z-index: 100;
-}
-#global_img3{
-    z-index: 100;
-}
-#global_img4{
-    z-index: 100;
-}
 /* 各ページのデザイン */
 /* テキストの位置 */
 #pg1 h1{
@@ -214,12 +199,12 @@ img{
     /* 画像の初期位置 */
     #global-img-div1{
         width: 50%;
-        top: 40%;
+        top: 35%;
         left: 0%;
     }
     #global-img-div2{
         width: 40%;
-        top: 35%;
+        top: 33%;
         left: 50%;
     }
     #global-img-div3{
